@@ -240,3 +240,26 @@ section .main-container {
     font-weight: 700;
     box-shadow: 0 0 40 #3d52a0;
 }
+
+section .content {
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'poppins', sans-serif;
+}
+.about .about-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .title span {
+    color: #ede8f5;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+}

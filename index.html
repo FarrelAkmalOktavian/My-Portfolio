@@ -14,21 +14,21 @@
                     <span>Farrel Akmal Oktavian</span>
                 </div>
                 <div class="links">
-                    <div class="link"><a href="#">Home</a></div>
-                    <div class="link"><a href="#">About</a></div>
-                    <div class="link"><a href="#">Skills</a></div>
-                    <div class="link"><a href="#">Contact</a></div>
+                    <div class="link"><a href="#home">Home</a></div>
+                    <div class="link"><a href="#about">About</a></div>
+                    <div class="link"><a href="#skills">Skills</a></div>
+                    <div class="link"><a href="#contact">Contact</a></div>
                 </div>
-                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+                <i class="fa-solid fa-bars hamburg" onclick="toggleDropdown()"></i>
             </div>
-                <div class="dropdown">
+                <div class="dropdown" id="dropdown">
                     <div class="links">
                         <a href="#">Home</a>
                         <a href="#">About</a>
                         <a href="#">Skills</a>
                         <a href="#">Contact</a>
                     </div>
-                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                    <i class="fa-solid fa-xmark cancel" onclick="toggleDropdown()"></i>
                 </div>
         </nav>
         <section>

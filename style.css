@@ -105,12 +105,17 @@ nav {
     z-index: 100;
     position: absolute;
     top: 0;
-    transform: translateY(-500px);
+    left: 0;
     width: 100%;
     height: auto;
     backdrop-filter: blur(4px) brightness(40%);
     box-shadow: 0 0 20px #8697c4;
-    transition: 0.2s linear;
+    transform: translateY(-500px); /* Sembunyikan di awal */
+    transition: transform 0.3s ease-in-out;
+}
+
+.dropdown.active {
+    transform: translateY(0); /* Munculkan dropdown */
 }
 
 .dropdown .links a {
@@ -323,7 +328,7 @@ section .button {
 }
 section .button button {
     outline: none;
-    padding: 8px 16px;
+    padding: 0 16px;
     border-radius: 4px;
     font-size: 25px;
     font-weight: 400;

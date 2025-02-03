@@ -187,9 +187,22 @@ section .main-container {
     font-weight: 600;
 }
 
-.content .typewriter-text {
+.typewriter-text {
     color: #3d52a0;
+    border-right: 2px solid #3d52a0;
+    padding-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: blink 0.7s infinite;
 }
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
 
 .content p {
     font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);

@@ -409,6 +409,10 @@ section .button button:hover {
     margin-top: 20px;
 }
 
+.contact .text p {
+    color: #ede8f5;
+}
+
 footer {
     background: #3d52a0;
     padding: 15px 0;
@@ -530,7 +534,7 @@ footer .text span a:hover {
 }
 
 @media (max-width: 500px) {
-    main-contaner .image{
+    main-container .image{
         width: 50%;
         height: 60%;
         margin-bottom: 0px;

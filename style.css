@@ -263,3 +263,126 @@ section .title span {
     position: relative;
     padding-bottom: 8px;
 }
+section .title span:before,
+section .title span:after {
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #3d52a0;
+    left: 0;
+    bottom: 0;
+}
+section .title span:after {
+    bottom: -7px;
+    width: 70%;
+    left: 50%;
+    transform: scaleX(-50%);
+}
+.about .about-details .left {
+    width: 45%;
+}
+.about .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.about-details .right {
+    width: 55%;
+}
+section .topic {
+    color: #ede8f5;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.about-details .right p {
+    text-align: justify;
+    color: #ede8f5;
+}
+section .button {
+    margin: 16px 0;
+}
+section .button button {
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #3d52a0;
+    color: #ede8f5;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+section .button button:hover {
+    border-color: #3d52a0;
+    background-color: #ede8f5;
+    color: #3d52a0;
+}
+
+.skills {
+    background: #8697c4;
+}
+.skills content {
+    padding: 40px 0;
+}
+.skills .skills-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills-details .text {
+    width: 50%;
+    }
+    .skills-details p {
+        color: #ede8f5;
+        text-align: justify;
+        }
+        .skills .skills-details .experience {
+            display: flex;
+            align-items: center;
+            margin: 0 10px;
+            }
+.skills-details .experience .num {
+    color: #ede8f5;
+    font-size: 80px;
+}
+.skills-details .experience .exp {
+    color: #ede8f5;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 6px;
+}
+.skills-details .boxes {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills-details .box{
+    width: calc(100% / 2 - 20px);
+    margin: 20px 0;
+} 
+.skills-details .boxes .topic{
+    font-size: 20px;
+    color: #3d52a0;
+}
+.skills-details .boxes .per{
+    font-size: 60px;
+    color: #3d52a0;
+}
+.contact{
+    background: #8697c4;
+}
+.contact .content{
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.contact .text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}

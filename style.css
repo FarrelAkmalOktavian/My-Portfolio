@@ -195,7 +195,6 @@ section .main-container {
     gap: 5px; 
 }
 
-
 .typewriter-text {
     color: #3d52a0;
     font-weight: 600;
@@ -217,11 +216,6 @@ section .main-container {
     font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);
     margin: 10px 0;
 }
-
-.social-links {
-    overflow: visible !important;
-}
-
 
 .social-links i{
     display: inline-flex;
@@ -323,6 +317,9 @@ section .topic {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
+}
+.about-details .right .topic {
+    margin-top: 10px;
 }
 .about-details .right p {
     text-align: justify;

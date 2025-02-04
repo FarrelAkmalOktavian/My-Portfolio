@@ -58,4 +58,10 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelector(".dropdown").classList.remove("active");
         });
     });
+
 });
+
+function sendEmail() {
+    window.location.href = "mailto:farrelakmal5772@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Farrel,%20I%20would%20like%20to%20discuss%20a%20project%20with%20you.";
+}
+

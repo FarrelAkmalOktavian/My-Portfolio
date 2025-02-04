@@ -4,20 +4,21 @@
         <meta charset="UTF-8"/>
         <title>My Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
         <meta name="viewport" content="width=device-width">
     </head>
     <body>
         <nav>
             <div class="nav-container">
-                <div class="logo">
-                    <span>Farrel Akmal Oktavian</span>
+                <div class="logo"data-aos="zoom-in"data-aos-duration="1500">
+                    <span>Farrel</span>
                 </div>
                 <div class="links">
-                    <div class="link"><a href="#home">Home</a></div>
-                    <div class="link"><a href="#about">About</a></div>
-                    <div class="link"><a href="#skills">Skills</a></div>
-                    <div class="link"><a href="#contact">Contact</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#contact">Contact</a></div>
                 </div>
                 <i class="fa-solid fa-bars hamburg" onclick="toggleDropdown()"></i>
             </div>
@@ -33,19 +34,19 @@
         </nav>
         <section>
             <div class="main-container">
-                <div class="image">
+                <div class="image"data-aos="zoom-out" data-aos-duration="3000">
                     <img src="main.jpg" alt=""/> 
                 </div>
                 <div class="content">
-                    <h1 data-aos="fade-left">
+                    <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
                     Hey I'm
-                    <span>Farrel</span>
+                    <span>Farrel Akmal Oktavian</span>
                     </h1>
-                    <div class="typewriter">
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
                         I'm a 
                         <span class="typewriter-text"></span>
                     </div>                    
-                    <p>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nulla libero orci, tincidunt id viverra ac, posuere sit amet tortor. 
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
@@ -54,33 +55,33 @@
                         Sed vel felis vel nisl mollis tincidunt sed sed lectus.
                     </p>
                     <div class="social-links">
-                        <a href="https://github.com/FarrelAkmalOktavian" target="_blank">
+                        <a href="https://github.com/FarrelAkmalOktavian" target="_blank" data-aos="fade-up" data-aos-duration="1300">
                             <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/farrel-akmal-oktavian-470081312/" target="_blank">
+                        <a href="https://www.linkedin.com/in/farrel-akmal-oktavian-470081312/" target="_blank" data-aos="fade-up" data-aos-duration="1300">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
-                        <a href="https://www.instagram.com/farrelakml_15/" target="_blank">
+                        <a href="https://www.instagram.com/farrelakml_15/" target="_blank" data-aos="fade-up" data-aos-duration="1800">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </div>
-                    <div class="btn">
-                        <button>Hire me</button>
-                    </div>
+                    <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1300">
+                        <a href="#contact"><button>Hire me</button></a>
+                    </div>                    
                 </div>
             </div>
         </section>
 
         <section class="about" id="about">
             <div class="content">
-                <div class="title"><span>About Me</span></div>
+                <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
                 <div class="about-details">
-                    <div class="left">
+                    <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
                         <img src="main.jpg" alt=""/>
                     </div>
                     <div class="right">
-                        <div class="topic">Design Is My Passion</div>
-                        <p>
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Design Is My Passion</div>
+                        <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Nulla libero orci, tincidunt id viverra ac, posuere sit amet tortor. 
                             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
@@ -88,9 +89,9 @@
                             Etiam aliquam, dolor vitae sodales fermentum, ligula nibh aliquam mi, sed feugiat felis tellus sed magna. 
                             Sed vel felis vel nisl mollis tincidunt sed sed lectus.
                         </p>
-                        <div class="button">
-                            <button>Download CV</button>
-                        </div>
+                        <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <button>Download CV</button>
+                    </div>
                     </div>
                     
                 </div>
@@ -99,13 +100,13 @@
 
         <section class="skills" id="skills">
             <div class="content">
-                <div class="title"><span>My Skills</span></div>
+                <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
                 <div class="skills-details">
                     <div class="text">
-                        <div class="topic">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
                             All related skills
                         </div>
-                        <p data-aos="fade-right">
+                        <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Nulla libero orci, tincidunt id viverra ac, posuere sit amet tortor. 
                             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
@@ -113,7 +114,7 @@
                             Etiam aliquam, dolor vitae sodales fermentum, ligula nibh aliquam mi, sed feugiat felis tellus sed magna. 
                             Sed vel felis vel nisl mollis tincidunt sed sed lectus.
                         </p>
-                        <div class="experience">
+                        <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                            <div class="num">2</div> 
                            <div class="exp">
                             Years Of <br/>
@@ -123,24 +124,24 @@
                     </div>
                     <div class="boxes">
                         <div class="box">
-                            <div class="topic">Graphic Design</div>
-                            <div class="per">90%</div>
+                            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Graphic Design</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
                         </div>
                         <div class="box">
-                            <div class="topic">UI/UX</div>
-                            <div class="per">80%</div>
+                            <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">UI/UX</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
                         </div>
                         <div class="box">
-                            <div class="topic">Mobile Development</div>
-                            <div class="per">80%</div>
+                            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Mobile Development</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
                         </div>
                         <div class="box">
-                            <div class="topic">Game Development</div>
-                            <div class="per">70%</div>
+                            <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">Game Development</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">70%</div>
                         </div>
                         <div class="box">
-                            <div class="topic">Web Development</div>
-                            <div class="per">60%</div>
+                            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Web Development</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">60%</div>
                         </div>
                     </div>
                 </div>
@@ -149,12 +150,12 @@
 
         <section class="contact" id="contact">
             <div class="content">
-                <div class="title">
+                <div class="title" data-aos="fade-up" data-aos-duration="1500">
                     <span>Contact Me</span>
                 </div>
                 <div class="text">
-                    <div class="topic">Have Any Project?</div>
-                    <p>
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Project?</div>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nulla libero orci, tincidunt id viverra ac, posuere sit amet tortor. 
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
@@ -162,7 +163,7 @@
                         Etiam aliquam, dolor vitae sodales fermentum, ligula nibh aliquam mi, sed feugiat felis tellus sed magna. 
                         Sed vel felis vel nisl mollis tincidunt sed sed lectus.
                     </p>
-                    <div class="button">
+                    <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
                         <button>Send Me a Message</button>
                     </div>
                 </div>
@@ -174,6 +175,11 @@
                 <span>Created By <a href="#">Farrel Akmal Oktavian</a></span>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
 
         <script src="script.js"></script>
     </body>

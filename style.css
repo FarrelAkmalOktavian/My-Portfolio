@@ -399,6 +399,47 @@ section .button button:hover {
     color: #3d52a0;
 }
 
+.overview .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.overview .boxes .box {
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px #8697c4;
+    cursor: default;
+    color: #ede8f5;
+    transition: all 0.4s ease;
+}
+.overview .boxes .box:hover {
+    background: #3d52a0;
+    color: #ede8f5;
+}
+.overview .boxes .box .icon {
+    height: 50px;
+    width: 50px;
+    background: #3d52a0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #ede8f5;
+    margin: 0 auto 10px auto;
+    transition: all 0.4 ease;
+}
+.boxes .box:hover .icon {
+    background-color: #ede8f5;
+    color: #3d52a0;
+}
+.overview .boxes .box:hover .topic,
+.overview .boxes .box:hover p {
+    color: #ede8f5;
+}
+
 .contact {
     background: #8697c4;
 }

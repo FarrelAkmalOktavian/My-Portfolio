@@ -11,7 +11,7 @@
 body {
     width: 100%;
     height: auto;
-    background-color: #8697c4;
+    background-color: #0F172A;
     overflow-x: hidden;
 }
 
@@ -19,17 +19,17 @@ body {
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #ede8f5;
+    background:#1E293B;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #3d52a0;
+    background: #3B82F6;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #3d52a0;
+    background: #3B82F6;
 }
 
 nav {
@@ -46,14 +46,14 @@ nav {
 }
 
 .logo {
-    color: #ede8f5;
+    color: #F8FAFC;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .logo span {
-    color: #ede8f5;
-    text-shadow: 0 0 3px #ede8f5;
+    color: #F8FAFC;
+    text-shadow: 0 0 3px #F8FAFC;
 }
 
 .hamburg,
@@ -62,7 +62,7 @@ nav {
     position: absolute;
     right: 15px;
     top: 10px;
-    color: #ede8f5;
+    color: #F8FAFC;
     opacity: 0;
     pointer-events: none;
     font-size:clamp(2.5rem, 0.5rem + 5vw, 3rem);
@@ -75,7 +75,7 @@ nav {
 .nav-container .links a {
     position: relative;
     font-size: 1.2rem;
-    color: #ede8f5;
+    color: #F8FAFC;
     margin: 0 20px;
     text-decoration: none;
     font-weight: 550;
@@ -89,7 +89,7 @@ nav {
     left: 0;
     width: 0%;
     height: 3px;
-    background-color: #3d52a0;
+    background-color: #0F172A;
     transition: 0.2s linear;
 }
 
@@ -98,7 +98,7 @@ nav {
 }
 
 .nav-container .links a:hover {
-    color: #3d52a0
+    color: #3B82F6
 }
 
 .dropdown {
@@ -109,7 +109,7 @@ nav {
     width: 100%;
     height: auto;
     backdrop-filter: blur(4px) brightness(40%);
-    box-shadow: 0 0 20px #8697c4;
+    box-shadow: 0 0 20px #94A3B8;
     transform: translateY(-500px); /* Sembunyikan di awal */
     transition: transform 0.3s ease-in-out;
 }
@@ -120,7 +120,7 @@ nav {
 
 .dropdown .links a {
     display: flex;
-    color: #ede8f5;
+    color: #F8FAFC;
     text-decoration: none;
     justify-content: center;
     padding: 15px 0;
@@ -129,7 +129,7 @@ nav {
 }
 
 .dropdown .links a:hover {
-    background-color: #3d52a0;
+    background-color: #3B82F6;
 }
 
 section {
@@ -142,6 +142,7 @@ section .main-container {
     justify-content: space-between;
     padding-left: 100px;
     align-items: center;
+    padding-top: 80px;
 }
 
 .main-container .image {
@@ -149,7 +150,7 @@ section .main-container {
     height: 80vh;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: 0 0 50px #ede8f5;
+    box-shadow: 0 0 50px #F8FAFC;
 }
 
 .main-container .image img {
@@ -175,7 +176,7 @@ section .main-container {
 }
 
 .main-container .content {
-    color: #ede8f5;
+    color: #F8FAFC;
     width: 40%;
 }
 
@@ -184,7 +185,7 @@ section .main-container {
 }
 
 .content h1 span {
-    color: #3d52a0;
+    color: #3B82F6;
 }
 
 .content .typewriter {
@@ -196,9 +197,9 @@ section .main-container {
 }
 
 .typewriter-text {
-    color: #3d52a0;
+    color: #3B82F6;
     font-weight: 600;
-    border-right: 2px solid #3d52a0;
+    border-right: 2px solid #3B82F6;
     padding-right: 5px;
     white-space: nowrap;
     overflow: hidden;
@@ -224,9 +225,9 @@ section .main-container {
     width: 3rem;
     height: 3rem;
     background-color: transparent;
-    border: 0.2rem solid #3d52a0;
+    border: 0.2rem solid #3B82F6;
     border-radius: 50%;
-    color: #3d52a0;
+    color: #3B82F6;
     margin: 5px 15px;
     font-size: 1.5rem;
     transition: 0.2 linear;
@@ -234,38 +235,41 @@ section .main-container {
 
 .social-links i:hover {
     scale: 1.3;
-    color: #8697c4;
-    background-color: #3d52a0;
-    filter: drop-shadow(0 0 10px #3d52a0);
+    color: #94A3B8;
+    background-color: #3B82F6;
+    filter: drop-shadow(0 0 10px #3B82F6);
 }
 
 .content button {
     width: 50%;
     height: 6vh;
     margin: 30px;
-    background-color: #3d52a0;
-    color: #ede8f5;
+    background-color: #3B82F6;
+    color: #F8FAFC;
     border: none;
     outline: none;
     font-size: 120%;
-    font-weight: 700%;
+    font-weight: 700;
     border-radius: 5px;
-    transition: 0.2 linear;
+    transition: 0.2s linear;
 }
 
 .content button:hover {
     scale: 1.1;
-    color: #3d52a0;
-    border: 2px solid #3d52a0;
+    color: #3B82F6;
+    border: 2px solid #3B82F6;
     background-color: transparent;
     font-weight: 700;
-    box-shadow: 0 0 40 #3d52a0;
+    box-shadow: 0 0 40 #3B82F6;
 }
 
 section .content {
     width: 80%;
     margin: 0px auto;
     font-family: 'poppins', sans-serif;
+}
+.about {
+    padding-top: 80px;
 }
 .about .about-details {
     display: flex;
@@ -276,44 +280,47 @@ section .title {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 section .title span {
-    color: #ede8f5;
+    color: #F8FAFC;
     font-size: 30px;
     font-weight: 600;
     position: relative;
     padding-bottom: 8px;
 }
-section .title span:before,
-section .title span:after {
+section .title span:before{
     content:"";
     position: absolute;
     height: 3px;
     width: 100%;
-    background: #3d52a0;
+    background: #3B82F6;
     left: 0;
     bottom: 0;
+    border-radius:999px;
 }
 section .title span:after {
-    bottom: -7px;
-    width: 70%;
-    left: 50%;
-    transform: scaleX(-50%);
+    content:"";
+    position:absolute;
+    left:50%;
+    bottom:-10px;
+    width:60px;
+    height:3px;
+    background:#3B82F6;
+    border-radius:999px;
+    transform:translateX(-50%);
 }
 .about .about-details .left {
     width: 45%;
 }
-.about .left img {
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 12px;
-}
 .about-details .right {
     width: 55%;
+    background:#1E293B;
+    padding:30px;
+    border-radius:16px;
 }
 section .topic {
-    color: #ede8f5;
+    color: #F8FAFC;
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -323,7 +330,7 @@ section .topic {
 }
 .about-details .right p {
     text-align: justify;
-    color: #ede8f5;
+    color: #F8FAFC;
 }
 section .button {
     margin: 16px 0;
@@ -334,20 +341,20 @@ section .button button {
     border-radius: 4px;
     font-size: 25px;
     font-weight: 400;
-    background: #3d52a0;
-    color: #ede8f5;
+    background: #3B82F6;
+    color: #F8FAFC;
     border: 2px solid transparent;
     cursor: pointer;
     transition: all 0.4s ease;
 }
 section .button button:hover {
-    border-color: #3d52a0;
-    background-color: #ede8f5;
-    color: #3d52a0;
+    border-color: #3B82F6;
+    background-color: #F8FAFC;
+    color: #3B82F6;
 }
 
 .skills {
-    background: #8697c4;
+    background: #0F172A;
 }
 .skills content {
     padding: 40px 0;
@@ -361,7 +368,7 @@ section .button button:hover {
     width: 50%;
     }
     .skills-details p {
-        color: #ede8f5;
+        color: #F8FAFC;
         text-align: justify;
         }
         .skills .skills-details .experience {
@@ -370,11 +377,11 @@ section .button button:hover {
             margin: 0 10px;
             }
 .skills-details .experience .num {
-    color: #ede8f5;
+    color: #F8FAFC;
     font-size: 80px;
 }
 .skills-details .experience .exp {
-    color: #ede8f5;
+    color: #F8FAFC;
     margin-left: 20px;
     font-size: 18px;
     font-weight: 500;
@@ -392,11 +399,11 @@ section .button button:hover {
 } 
 .skills-details .boxes .topic {
     font-size: 20px;
-    color: #3d52a0;
+    color: #3B82F6;
 }
 .skills-details .boxes .per {
     font-size: 60px;
-    color: #3d52a0;
+    color: #3B82F6;
 }
 
 .overview .boxes {
@@ -410,38 +417,39 @@ section .button button:hover {
     text-align: center;
     border-radius: 12px;
     padding: 30px 10px;
-    box-shadow: 0 5px 10px #8697c4;
+    box-shadow:0 8px 24px rgba(0,0,0,.3);
     cursor: default;
-    color: #ede8f5;
+    background:#1E293B;
+    color: #F8FAFC;
     transition: all 0.4s ease;
 }
 .overview .boxes .box:hover {
-    background: #3d52a0;
-    color: #ede8f5;
+    background:#2563EB;
+    color: #F8FAFC;
 }
 .overview .boxes .box .icon {
     height: 50px;
     width: 50px;
-    background: #3d52a0;
+    background: #3B82F6;
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
     font-size: 18px;
-    color: #ede8f5;
+    color: #F8FAFC;
     margin: 0 auto 10px auto;
     transition: all 0.4 ease;
 }
 .boxes .box:hover .icon {
-    background-color: #ede8f5;
-    color: #3d52a0;
+    background-color: #F8FAFC;
+    color: #3B82F6;
 }
 .overview .boxes .box:hover .topic,
 .overview .boxes .box:hover p {
-    color: #ede8f5;
+    color: #F8FAFC;
 }
 
 .contact {
-    background: #8697c4;
+    background: #0F172A;
 }
 .contact .content {
     margin: 0 auto;
@@ -458,11 +466,11 @@ section .button button:hover {
 }
 
 .contact .text p {
-    color: #ede8f5;
+    color: #F8FAFC;
 }
 
 footer {
-    background: #3d52a0;
+    background: #1E293B;
     padding: 15px 0;
     text-align: center;
     font-family: 'poppins', sans-serif;
@@ -470,11 +478,11 @@ footer {
 footer .text span {
     font-size: 17px;
     font-weight: 400;
-    color: #ede8f5;
+    color: #F8FAFC;
 }
 footer .text span a {
     font-weight: 500;
-    color: #ede8f5;
+    color: #F8FAFC;
 }
 footer .text span a:hover {
     text-decoration: underline;
@@ -483,12 +491,12 @@ footer .text span a:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    color: #ede8f5;
-    background: #3d52a0;
+    color: #F8FAFC;
+    background: #3B82F6;
     padding: 7px 12px;
     font-size: 18px;
     border-radius: 6px;
-    box-shadow: #8697c4;
+    box-shadow: #94A3B8;
     display: none;
 }
 
@@ -598,6 +606,6 @@ footer .text span a:hover {
 
     .skills-details .boxes .per {
         font-size: 50px;
-        color: #3d52a0;
+        color: #3B82F6;
     }
 }
